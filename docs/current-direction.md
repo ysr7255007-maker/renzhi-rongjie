@@ -48,3 +48,9 @@ Godot 当前是正式世界容器 / Host Runtime 的优先候选。收编不意�
 ## 8. 当前施工纪律
 
 新仓库不搬旧工程实现。任何新实现都应从当前问题重新选择结构，不把旧 DCF 的源码、目录、宿主、脚本、测试和兼容层当默认母本。
+
+## 9. 已验证的自举底座
+
+2026-08-27 已完成 DeepSeek Harness 实机验收。当前建立专用 `renzhi-rongjie` Profile：官方 Workflow 可真实并行启动子 Agent，原始 Session 与 Workflow 事件可由官方 SQLite Persistence 持久化；第二层中文叙事与证据关联、第三层执行决策/叙事校准双通道已经跑通。
+
+当前唯一尚未闭合的基础门是 Durable AI Workflow：官方 Workflow 仍无 journaling/resume。详细实验见 `docs/experiments/2026-08-27-deepseek-harness-three-layer-spike.md`。

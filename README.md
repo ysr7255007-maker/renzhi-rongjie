@@ -21,3 +21,9 @@
 ## 历史边界
 
 旧仓库 `ysr7255007-maker/dcf-chatgpt-microcore` 保留为历史事实源。本仓库迁入旧 ADR 与项目文档只为了保留认知历史，不代表继承其代码、目录结构、运行时、测试、脚本或兼容层。
+
+## 当前 Battle Map 研究工作区
+
+- [Battle Map / BMAD 研究与规划工作区](battle-map/)
+
+该目录保存当前 Battle Map 方法、规划产物、架构/SPEC、BMAD 适配研究、运行工具与测试。运行日志、个人配置和会话标识不进入公开仓库。
